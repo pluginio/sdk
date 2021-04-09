@@ -1,0 +1,23 @@
+export declare enum EventType {
+    CLOSE_HOST_FRAME = "io::plugin::close_host_frame",
+    CAMERA_RESPONSE = "io::plugin::camera::response",
+    UPLOAD_RESPONSE = "io::plugin::upload::response",
+    AD_VIDEO_RESPONSE = "io::plugin::ad::video::response",
+    AD_VIDEO_REWARD_RESPONSE = "io::plugin::ad::video_reward::response",
+    AD_IMAGE_RESPONSE = "io::plugin::ad::image::response",
+    AD_BANNER_RESPONSE = "io::plugin::ad::banner::response",
+    DATA_LOAD_RESPONSE = "io::plugin::data::load::response",
+    DATA_SAVE_RESPONSE = "io::plugin::data::save::response",
+    SHARE_SOCIAL_RESPONSE = "io::plugin::share::social::response",
+    SHARE_INVITE_RESPONSE = "io::plugin::share::invite::response",
+    USER_USERNAME_RESPONSE = "io::plugin::user::username::response",
+    USER_FRIENDS_RESPONSE = "io::plugin::user::friends::response",
+    USER_FOLLOWERS_RESPONSE = "io::plugin::user::followers::response",
+    USER_FOLLOWING_RESPONSE = "io::plugin::user::following::response",
+    USER_IS_LOGGED_IN_RESPONSE = "io::plugin::user::is_logged_in::response",
+    USER_LOGIN_RESPONSE = "io::plugin::user::login::response",
+    PURCHASE_BUY_RESPONSE = "io::plugin::purchase::buy::response",
+    PURCHASE_IS_SUBSCRIBED_RESPONSE = "io::plugin::purchase::is_suscribed::response",
+    PURCHASE_SUBSCRIBE_RESPONSE = "io::plugin::purchase::subscribe::response",
+    PURCHASE_STORE_RESPONSE = "io::plugin::purchase::store::response"
+}

@@ -1,0 +1,33 @@
+import { Application } from "../../Application";
+import { IApi } from "../IApi";
+import { Advert } from "./Advert";
+import { Camera } from "./Camera";
+import { Purchase } from "./Purchase";
+import { Data } from "./Data";
+import { Console } from "./Console";
+import { Analytics } from "./Analytics";
+import { Share } from "./Share";
+import { User } from "./User";
+export declare class Api implements IApi {
+    static VERSION: string;
+    application: Application;
+    private _advert;
+    private _analytics;
+    private _camera;
+    private _console;
+    private _data;
+    private _purchase;
+    private _share;
+    private _user;
+    loadHostFrame(path: string, params?: object): void;
+    init(): void;
+    get advert(): Advert;
+    get analytics(): Analytics;
+    get camera(): Camera;
+    get console(): Console;
+    get data(): Data;
+    get purchase(): Purchase;
+    get share(): Share;
+    get user(): User;
+    startup(): void;
+}
