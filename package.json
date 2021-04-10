@@ -4,7 +4,7 @@
     "description": "Official Plugin.IO SDK.",
     "declaration": true,
     "types": "types/PluginIO.d.ts",
-    "main": "bin/pluginio.min.js",
+    "main": "dist/pluginio.min.js",
     "keywords": [
       "plugin.io",
       "pluginio",
