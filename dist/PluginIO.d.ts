@@ -14,3 +14,5 @@ export default class PluginIO {
     static enableHostFrame(path: string): void;
     static disableHostFrame(): void;
 }
+
+export as namespace sdk;
