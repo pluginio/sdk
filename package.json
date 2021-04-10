@@ -3,6 +3,7 @@
     "version": "0.0.0",
     "description": "Official Plugin.IO SDK.",
     "declaration": true,
+    "types": "types/PluginIO.d.ts",
     "main": "dist/pluginio.min.js",
     "keywords": [
       "plugin.io",
